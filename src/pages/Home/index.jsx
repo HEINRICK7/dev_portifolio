@@ -30,39 +30,39 @@ const Home = () => {
                       <Link to="./contact" className="btn hero-btn">Contrate-me</Link>
                       <ul className="social-icons hero-icons">
                           <li>
-                            <Link to="https://www.facebook.com/heinrick.costa/" target="_blank"  className="social-icon">
+                            <a href="https://www.facebook.com/heinrick.costa/" target="_blank" rel="noopener noreferrer"  className="social-icon">
                             <Tooltip title="Facebook">
                               < FaFacebook style={{fontSize: 30}}/>
                             </Tooltip>
-                            </Link>  
+                            </a>  
                           </li>
                           <li>
-                            <Link to="https://www.linkedin.com/in/heinrickcostta/" target="_blank" className="social-icon">
+                            <a href="https://www.linkedin.com/in/heinrickcostta/" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <Tooltip title="Linkedin">
                             < FaLinkedin style={{fontSize: 30}}/>
                             </Tooltip>
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="https://github.com/HEINRICK7" target="_blank" className="social-icon">
+                            <a href="https://github.com/HEINRICK7" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <Tooltip title="Github">
                             < FaGithub style={{fontSize: 30}}/>
                             </Tooltip>
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="https://app.rocketseat.com.br/me/heinrickcostta" target="_blank" className="social-icon">
+                            <a href="https://app.rocketseat.com.br/me/heinrickcostta" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <Tooltip title="Rocketseat">   
                             < AiOutlineRocket style={{fontSize: 30}}/>
                             </Tooltip> 
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link to="https://www.twitter.com" className="social-icon">
+                            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <Tooltip title="Instagram">
                             < FaInstagram style={{fontSize: 30}}/>
                             </Tooltip> 
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </article>
