@@ -35,3 +35,16 @@
     -webkit-transition: var(--transition);
     transition: var(--transition);
   }
+  .back {
+    margin: 0 0 0 50px;
+    width: 100px;
+    height: 40px;
+    background: var(--clr-primary-10);
+    border: 1px solid ;
+    border-radius: 8px;
+
+    cursor: pointer;
+    outline-style: none;
+  
+  } 
+  

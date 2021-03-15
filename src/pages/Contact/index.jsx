@@ -2,12 +2,16 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
+import { FaArrowLeft } from 'react-icons/fa'
+
+
 import './style.css'
 
 const Contact = () => {
     return (
         <>
         <section className="section single-page">
+          <button className="back"><Link to="/" style={{color:"#031a4d", textDecoration:"none"}}>< FaArrowLeft/> Voltar</Link></button>
             <div className="section-title">
               <h1>contato</h1>
               <div className="underline"></div>
